@@ -1,0 +1,41 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/light_grey"
+    android:id="@+id/test">
+
+    <com.baidu.mapapi.map.MapView
+        android:id="@+id/bmapView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:clickable="true" />
+    <ImageButton
+        android:id="@+id/location"
+        android:src="@drawable/icon_landing_arrow"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginLeft="40dp"
+        android:layout_marginBottom="80dp"
+        android:background="@color/write"/>
+
+    <ImageButton
+        android:id="@+id/route"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:background="@color/write"
+        android:layout_above="@id/location"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="40dp"
+        android:src="@drawable/main_icon_route"/>
+    <ImageView
+        android:id="@+id/loading"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:src="@drawable/im_loading_circle"/>
+</RelativeLayout>

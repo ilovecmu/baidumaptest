@@ -1,0 +1,12 @@
+<resources>
+    <color name="light_light_grey">#e1e1e1</color>
+    <color name="light_grey">#c1c1c1</color>
+    <color name="grey">#666</color>
+    <color name="write">#fff</color>
+    <color name="light_green">#0C0</color>
+    <color name="green">#080</color>
+    <color name="trans">#00ffffff</color>
+    <color name="blank">#000</color>
+
+
+</resources>
